@@ -1,0 +1,23 @@
+{
+  "name": "validate-tool",
+  "version": "1.0.0",
+  "description": "验证工具包",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "test": "node test"
+  },
+  "keywords": [
+    "验证工具",
+    "手机号验证",
+    "身份证验证"
+  ],
+  "author": "liyg",
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  }
+}
